@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="199bb25f-847b-4981-8a9b-f6d6d4e82183">
+  <producedTypes>
+    <refType typeId="e9842e70-e55c-42d7-802c-3f653c04f4bf" valueTypeId="7240024a-7676-44fb-b8b5-327b2736b0b8"/>
+    <listType typeId="2b45f06f-bb0e-4239-97eb-84d2bc6fe506" valueTypeId="45336bc8-34fb-4340-b30b-21d3318e8e4e"/>
+    <managerType typeId="1f1e6126-7362-4b6a-8ff6-1ca17f470348" valueTypeId="95db27eb-2d9f-4a7c-92c1-c18a4c15b868"/>
+  </producedTypes>
+  <name>СтатусыАрендаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы арендаторов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6b85e026-ddbb-4d38-bd7d-23bed682afab">
+    <name>Потенциальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потенциальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5e6431b-4707-4813-9472-deea11207b3d">
+    <name>Действующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34f9cc67-21e5-4c6f-83a8-54b98008d60c">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

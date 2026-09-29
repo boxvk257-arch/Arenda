@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9b162f4-9434-4dac-af1d-91afd2504f3f">
+  <name>АрендаПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда помещений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Помещения</content>
+  <content>Enum.СтатусыПомещений</content>
+  <content>Catalog.Арендаторы</content>
+  <content>Enum.ВидыАрендаторов</content>
+  <content>Enum.СтатусыАрендаторов</content>
+</mdclass:Subsystem>
