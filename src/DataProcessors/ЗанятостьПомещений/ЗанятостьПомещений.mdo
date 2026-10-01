@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74c34477-15ac-41be-b68f-8d15629bf8ea">
+  <producedTypes>
+    <objectType typeId="ef4fa6a9-8a61-4e7d-bec0-2a54d845c708" valueTypeId="6f423955-c5ea-4fe0-8cc7-317b497c12d2"/>
+    <managerType typeId="bed576d0-e6be-49ef-90ea-0d6ec664eb99" valueTypeId="9cc4028d-2f98-4e72-a7fd-25b0b517bbd4"/>
+  </producedTypes>
+  <name>ЗанятостьПомещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Занятость помещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗанятостьПомещений.Form.Форма</defaultForm>
+  <forms uuid="5b956bec-e49a-4973-90de-208dc5458c43">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занятость помещений</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

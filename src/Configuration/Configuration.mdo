@@ -52,4 +52,5 @@
   <enums>Enum.СтатусыАрендаторов</enums>
   <enums>Enum.СтатусыДоговоровАренды</enums>
   <enums>Enum.СтатусыПомещений</enums>
+  <dataProcessors>DataProcessor.ЗанятостьПомещений</dataProcessors>
 </mdclass:Configuration>

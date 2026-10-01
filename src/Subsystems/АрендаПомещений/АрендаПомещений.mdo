@@ -19,4 +19,5 @@
   <content>Enum.ВидыДоговоровАренды</content>
   <content>Enum.СтатусыДоговоровАренды</content>
   <content>Enum.СтавкиНДС</content>
+  <content>DataProcessor.ЗанятостьПомещений</content>
 </mdclass:Subsystem>
