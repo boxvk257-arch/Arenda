@@ -37,6 +37,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДоговорыАрендаторов.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="8196d20c-0623-45fd-ae61-c779cd609921">
     <name>Номер</name>
     <synonym>
@@ -315,24 +316,6 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="70f31db0-0858-4d3a-a9d9-f621a905c204">
-      <name>Площадь</name>
-      <synonym>
-        <key>ru</key>
-        <value>Площадь</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>15</precision>
-          <scale>2</scale>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="436fb22e-37bb-439c-9d8b-a71634c02c7b">
       <name>СтавкаЗаКвМ</name>
       <synonym>
@@ -380,6 +363,24 @@
         <stringQualifiers>
           <length>200</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7093d63e-7961-43d6-8ead-949b60a7c2d8">
+      <name>Площадь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Площадь</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -468,4 +469,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="c75bdf4a-2d6e-4b3a-82c1-91b66b447ce3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+  </forms>
 </mdclass:Catalog>
