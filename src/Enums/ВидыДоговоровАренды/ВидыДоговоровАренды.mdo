@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5003295-6fac-4c77-b1dd-66154b52a0e2">
+  <producedTypes>
+    <refType typeId="ba67d728-4072-4801-9909-e4d887533c73" valueTypeId="72186ae1-0839-447c-b41a-2fa571bc0881"/>
+    <listType typeId="30d9be6c-dfd0-4a0d-99ed-56bde02310eb" valueTypeId="f09c0a6f-89fe-4819-b867-ab4e77ee5e0a"/>
+    <managerType typeId="97d1f3c7-50df-4a48-a105-3c2d004275a1" valueTypeId="f5d1978f-9802-472b-9790-2666035ed2f5"/>
+  </producedTypes>
+  <name>ВидыДоговоровАренды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды договоров аренды</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="01be6191-997a-40f8-a8cf-7f454ab0b01b">
+    <name>Аренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70c85fd4-1b2f-48bf-a46a-d33ea8ed2ff8">
+    <name>Субаренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субаренда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc9de356-fad2-4c3e-b88b-2075349bb14c">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

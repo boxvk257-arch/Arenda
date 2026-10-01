@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad7180a6-8f49-4ff8-9530-b7e238dc221c">
+  <producedTypes>
+    <objectType typeId="620f70cf-1360-4c88-9966-6493d9de92a2" valueTypeId="0019cdd0-f95f-405e-b9ee-3fd668c09901"/>
+    <refType typeId="dfcc5e54-1ebe-49b3-a2a6-6ae53238fb1d" valueTypeId="f89eefd8-e793-44e1-a2a7-856d8ac8b1f4"/>
+    <selectionType typeId="73b15c84-3d2c-406e-b4f2-2ef936094a68" valueTypeId="a7bb0a2c-97e5-433c-948c-e207779325e6"/>
+    <listType typeId="0916a691-9ec9-417f-80cb-de3fd91cfdec" valueTypeId="536ea661-bd51-4bbc-b918-48a982eb3a47"/>
+    <managerType typeId="984608f4-ca2f-45be-90d7-8a3f54bb2519" valueTypeId="36ab1363-0b1a-4d95-85c6-5491a4e12d65"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Валюта</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Валюты</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6c0974c9-3b15-4b73-be9a-67d86777322c">
+      <name>Рубль</name>
+      <description>Рубль</description>
+      <code xsi:type="core:StringValue">
+        <value>RUB</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="246d70d5-5326-41ef-806a-c9f4e49a77ba">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a50d5bdb-6aa8-4941-8270-e94fabc4be32">
+    <name>КодВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифровой код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6efbdb9e-55e4-4a5a-8fc1-7135674ec6c8">
+    <name>ЗагружаетсяИзИнтернета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружается из интернета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

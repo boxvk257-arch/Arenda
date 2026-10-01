@@ -12,4 +12,11 @@
   <content>Catalog.Арендаторы</content>
   <content>Enum.ВидыАрендаторов</content>
   <content>Enum.СтатусыАрендаторов</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Организации</content>
+  <content>Enum.ВидыОрганизаций</content>
+  <content>Catalog.ДоговорыАрендаторов</content>
+  <content>Enum.ВидыДоговоровАренды</content>
+  <content>Enum.СтатусыДоговоровАренды</content>
+  <content>Enum.СтавкиНДС</content>
 </mdclass:Subsystem>

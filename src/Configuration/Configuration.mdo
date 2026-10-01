@@ -41,8 +41,15 @@
   </languages>
   <subsystems>Subsystem.АрендаПомещений</subsystems>
   <catalogs>Catalog.Арендаторы</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ДоговорыАрендаторов</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Помещения</catalogs>
   <enums>Enum.ВидыАрендаторов</enums>
+  <enums>Enum.ВидыДоговоровАренды</enums>
+  <enums>Enum.ВидыОрганизаций</enums>
+  <enums>Enum.СтавкиНДС</enums>
   <enums>Enum.СтатусыАрендаторов</enums>
+  <enums>Enum.СтатусыДоговоровАренды</enums>
   <enums>Enum.СтатусыПомещений</enums>
 </mdclass:Configuration>
