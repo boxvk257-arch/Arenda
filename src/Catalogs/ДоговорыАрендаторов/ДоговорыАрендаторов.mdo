@@ -292,6 +292,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="bb156d70-1d59-4aeb-937f-859f12bdbef8">
+    <name>ПлощадьПоДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь по договору</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="32bbd485-9c32-4fa3-8fdd-42dd645a0821">
     <producedTypes>
       <objectType typeId="2930b59d-d624-4f5b-8391-f5aadbf7beb4" valueTypeId="3735334f-8a5a-4e12-8fda-deff46a900f8"/>

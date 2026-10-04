@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e95e5a02-de2f-406d-b2e5-b2f5118c401c">
+  <producedTypes>
+    <selectionType typeId="d05f0ff8-77ad-465c-872d-ec6ce7ef8df0" valueTypeId="3edccb5b-3467-4260-b50d-843dddf5dc9e"/>
+    <listType typeId="1ae7cd67-b9bd-46af-91fb-38856d268925" valueTypeId="41ed9117-1b35-4fcc-88b5-19340b135c1d"/>
+    <managerType typeId="e85d9f41-0efc-4afa-9ccf-f9f4f4467e3c" valueTypeId="f249b57a-ef76-4ca9-8edd-91b053535b30"/>
+    <recordSetType typeId="31a5b696-758e-4ee5-8272-c8f0c572defd" valueTypeId="1c23c577-7e78-4aaf-97e2-ea3b6c6dd2fd"/>
+    <recordKeyType typeId="4ef64008-3a9a-4f1b-8251-6fc7b8313f85" valueTypeId="7a50b964-ef37-403c-8c64-faa8a2479e6b"/>
+    <recordType typeId="6ee2b873-6e04-48dc-a066-76ab36030aa3" valueTypeId="6ada01df-cbb2-424e-a67e-7ac00e530ca2"/>
+  </producedTypes>
+  <name>ПлатежиПоДоговорам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежи по договорам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2641d4ac-3355-4198-89f3-c6cc40512596">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6d94610b-d6e7-44d4-badb-d228a412b9ea">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыАрендаторов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3bb22258-8559-4ff7-a6e6-ebcea97b16d1">
+    <name>Арендатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Арендатор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Арендаторы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e4943aa7-2fa1-4e9e-8bcd-9ac30820b7b9">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8513ff66-90c7-48f9-ac02-b8b4b310937f">
+    <name>МесяцОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц оплаты</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

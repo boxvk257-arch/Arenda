@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7c5ae96-f4fc-4574-9f05-51dc6cc88b56">
+  <producedTypes>
+    <objectType typeId="a9a4924c-ff1c-4269-a17d-88d3c89aef35" valueTypeId="aad2c66f-850d-4241-a477-515a1c06ec37"/>
+    <managerType typeId="d950cee9-94ed-4811-bc70-714bbc632da8" valueTypeId="8446a30f-53fb-42da-b908-2611089c08bb"/>
+  </producedTypes>
+  <name>ПланИФактПоступлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>План и факт поступлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПланИФактПоступлений.Form.ФормаОтчета</defaultForm>
+  <forms uuid="0b3aaf9e-d622-4f1e-ae31-b321da5dfb0f">
+    <name>ФормаОтчета</name>
+  </forms>
+  <templates uuid="da7810d9-2fb7-4083-b351-dc77c7aee685">
+    <name>ОсновнаяСхема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

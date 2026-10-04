@@ -20,4 +20,7 @@
   <content>Enum.СтатусыДоговоровАренды</content>
   <content>Enum.СтавкиНДС</content>
   <content>DataProcessor.ЗанятостьПомещений</content>
+  <content>Document.ПоступлениеПлатежа</content>
+  <content>AccumulationRegister.ПлатежиПоДоговорам</content>
+  <content>Report.ПланИФактПоступлений</content>
 </mdclass:Subsystem>

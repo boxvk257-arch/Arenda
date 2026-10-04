@@ -45,6 +45,7 @@
   <catalogs>Catalog.ДоговорыАрендаторов</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Помещения</catalogs>
+  <documents>Document.ПоступлениеПлатежа</documents>
   <enums>Enum.ВидыАрендаторов</enums>
   <enums>Enum.ВидыДоговоровАренды</enums>
   <enums>Enum.ВидыОрганизаций</enums>
@@ -52,5 +53,7 @@
   <enums>Enum.СтатусыАрендаторов</enums>
   <enums>Enum.СтатусыДоговоровАренды</enums>
   <enums>Enum.СтатусыПомещений</enums>
+  <reports>Report.ПланИФактПоступлений</reports>
   <dataProcessors>DataProcessor.ЗанятостьПомещений</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.ПлатежиПоДоговорам</accumulationRegisters>
 </mdclass:Configuration>
