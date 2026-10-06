@@ -14,12 +14,4 @@
   <forms uuid="0b3aaf9e-d622-4f1e-ae31-b321da5dfb0f">
     <name>ФормаОтчета</name>
   </forms>
-  <templates uuid="da7810d9-2fb7-4083-b351-dc77c7aee685">
-    <name>ОсновнаяСхема</name>
-    <synonym>
-      <key>ru</key>
-      <value>Основная схема</value>
-    </synonym>
-    <templateType>DataCompositionSchema</templateType>
-  </templates>
 </mdclass:Report>

@@ -25,6 +25,7 @@
     <key>ru</key>
     <value>Помещения</value>
   </listPresentation>
+  <dataHistory>Use</dataHistory>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
